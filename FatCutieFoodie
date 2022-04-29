@@ -1,41 +1,195 @@
-<div class="header">
-  <h2>Blog Name</h2>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-    </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
-  </div>
-</div>
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>FatCutieFoodie</title>
+    </head>
+    <body>
+    <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">FCF</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <!-- <li><i class='bx bx-moon change-theme' id="theme-button"></i></li> -->
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">FatCutieFoodie</h1>
+                        <h2 class="home__subtitle">Little Rock Eats <br> and Beyond.</h2>
+                        <a href="#" class="button">View Eats</a>
+                    </div>
+   
+                    <img src="15f60a168fcd03be333a7448fcc12f35.jpg" alt="" class="home__img">
+                </div>
+            </section>
+           
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We eat the best <br> tasty food</h2>
+                        <p class="about__description">We travel the world and try some of the best foods in the cities. Come with me on my journey of food, travel and culture.</p>
+                        <a href="#" class="button">Explore Tasty Photos</a>
+                    </div>
+
+                    <img src="2d2ded38af8a733bc5583b7137732640.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+        
+
+                   
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Best food of the week</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="chicken tacos.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Chicken and El Pastor Tacos</h3>
+                        <span class="menu__detail">TaQueria Los Agaveros</span>
+                        <span class="menu__preci">$1.00/Taco</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="buildyourownpizza.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Build Your Own Pizza</h3>
+                        <span class="menu__detail">Blaze Pizza</span>
+                        <span class="menu__preci">$12.00</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                   
+                    <div class="menu__content">
+                        <img src="cajunpoutine.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Delta After Dark Poutine</h3>
+                        <span class="menu__detail">Delta Biscuit Co.</span>
+                        <span class="menu__preci">$9.50</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== APP =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">App</span>
+                        <h2 class="section-title app__initial">App is under construction</h2>
+                        <p class="app__description">Find our application and download once it launches this summer.</p>
+                        <div class="app__stores">
+                            <a href="#"><img src="https://www.seekpng.com/png/detail/222-2228504_app-store-badge-png-download-app-store-png.png" alt="" class="app__store"></a>
+                            <a href="#"><img src="https://www.vhv.rs/dpng/d/16-165995_white-play-store-icon-hd-png-download.png" alt="" class="app__store"></a>
+                        </div>
+                    </div>
+
+                    <img src="1CAFD8C0-FFC3-4836-8126-81E99B440DA8.PNG">
+                </div>
+            </section>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's dig in!</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you need additional information about a restaurant, contact me.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="https://forms.gle/rxNAfDHkxb3abLv89" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">FatCutieFoodie</a>
+                    <span class="footer__description">Food Blogger</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Pricing</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Fast food</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Reserve your spot</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Delivery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Event</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Contact us</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Privacy policy</a></li>
+                        <li><a href="https://forms.gle/rxNAfDHkxb3abLv89" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Central, AR</li>
+                        <li>Jr Union #999</li>
+                        <li>501 - 888 - 777</li>
+                        <li>fatcutiefoodie@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">Made by <a href="https://www.linkedin.com/in/mishra07adi/" style="color: green;">the FatCutieFoodies</a>. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <!-- <script src="main.js"></script> -->
+    </body>
+</html>
